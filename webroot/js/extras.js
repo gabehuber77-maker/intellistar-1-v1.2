@@ -1559,7 +1559,6 @@ var slideFlavors = {
                 {function:"airQuality",slideDelay:8000},
                 {function:"outdoorActivity",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
-                {function:"localForecast",slides:4,slideDelay:7500},
                 {function:"weekAhead",slideDelay:8000},
             ]
         },
