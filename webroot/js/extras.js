@@ -1559,6 +1559,7 @@ var slideFlavors = {
                 {function:"airQuality",slideDelay:8000},
                 {function:"outdoorActivity",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
+				{function:"localForecast",slides:3,slideDelay:7500},
                 {function:"weekAhead",slideDelay:8000},
             ]
         },
@@ -1574,7 +1575,7 @@ var slideFlavors = {
                 {function:"outdoorActivity",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:2,slideDelay:7000},
-                {function:"weekAhead",slideDelay:8000},
+                {function:"localForecast",slides:4,slideDelay:7500},
             ]
         },
         {
@@ -1606,7 +1607,7 @@ var slideFlavors = {
                 {function:"outdoorActivity",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:2,slideDelay:7000},
-                {function:"weekAhead",slideDelay:8000},
+                {function:"localForecast",slides:4,slideDelay:7500},
             ]
         },
         {
@@ -1620,6 +1621,7 @@ var slideFlavors = {
                 {function:"almanac",slideDelay:8000},
                 {function:"airQuality",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
+				{function:"localForecast",slides:3,slideDelay:7500},
                 {function:"weekAhead",slideDelay:8000},
             ]
         },
@@ -1635,7 +1637,7 @@ var slideFlavors = {
                 {function:"airQuality",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:2,slideDelay:8000},
-                {function:"weekAhead",slideDelay:8000},
+                {function:"localForecast",slides:4,slideDelay:7500},
             ]
         },
         {
@@ -1667,7 +1669,7 @@ var slideFlavors = {
                 {function:"airQuality",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:2,slideDelay:8000},
-                {function:"weekAhead",slideDelay:8000},
+                {function:"localForecast",slides:4,slideDelay:7500},
             ]
         }
         //more to come
