@@ -53,7 +53,7 @@ function adCrawl(idx){
     $(".ldl-black .template.ad").fadeIn(0);
     $(".ldl-black .weathercomlogo").fadeOut(0);
     $('.ldl-black .crawl').text(appearanceSettings.marqueeAd[idx])
-    $('.ldl-black .crawl').marquee({ speed: 75, pauseOnHover: false }).on('finished', () =>{
+    $('.ldl-black .crawl').marquee({ speed: 30, pauseOnHover: false }).on('finished', () =>{
         $('.ldl-black .crawl').text("");
         $('.ldl-black .crawl').marquee('destroy');
         obsInterval = blackLDLObs();
@@ -72,7 +72,7 @@ function blackLDLObs(){
             $(".ldl-black .currently").fadeOut(0);
             $(".ldl-black .info-header").fadeOut(0);
             $(".ldl-black .info").fadeOut(0);
-            $(".ldl-black .city-name").text("Local weather ID: " + locWeatherID);
+            $(".ldl-black .city-name").text("Free Bird: " + locWeatherID);
         },
         cc = function(){
             $(".ldl-black .currently").fadeIn(0);
