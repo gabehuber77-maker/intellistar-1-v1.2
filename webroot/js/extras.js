@@ -1353,10 +1353,8 @@ var slideFlavors = {
             precip: false,
             order: [
                 {function:"currentConditions",slideDelay:7500},
-                {function:"mapCurrent",slideDelay:7500},
-                {function:"radarDoppler",slideDelay:7500},
                 {function:"almanac",slideDelay:7500},
-                {function:"localForecast",slides:3,slideDelay:7500},
+                {function:"localForecast",slides:2,slideDelay:7500},
                 {function:"weekAhead",slideDelay:7500},
             ]
         },
@@ -1366,9 +1364,7 @@ var slideFlavors = {
             precip: false,
             order: [
                 {function:"currentConditions",slideDelay:8000},
-                {function:"mapCurrent",slideDelay:8000},
-                {function:"radarDoppler",slideDelay:8000},
-                {function:"localForecast",slides:3,slideDelay:9333.33},
+                {function:"localForecast",slides:2,slideDelay:9333.33},
                 {function:"weekAhead",slideDelay:8000},
             ]
         },
@@ -1379,9 +1375,7 @@ var slideFlavors = {
             order: [
                 {function:"bulletin",slideDelay:7500},
                 {function:"currentConditions",slideDelay:7500},
-                {function:"mapCurrent",slideDelay:7500},
-                {function:"radarDoppler",slideDelay:7500},
-                {function:"localForecast",slides:3,slideDelay:7500},
+                {function:"localForecast",slides:2,slideDelay:7500},
                 {function:"weekAhead",slideDelay:7500},
             ]
         },
@@ -1393,8 +1387,6 @@ var slideFlavors = {
                 {function:"bulletin",slideDelay:8000},
                 {function:"currentConditions",slideDelay:8000},
                 {function:"mapCurrent",slideDelay:8000},
-                {function:"radarDoppler",slideDelay:8000},
-                {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:1,slideDelay:8000},
                 {function:"weekAhead",slideDelay:12000},
             ]
@@ -1459,11 +1451,7 @@ var slideFlavors = {
             precip: false,
             order: [
                 {function:"currentConditions",slideDelay:8000},
-                {function:"mapCurrent",slideDelay:8000},
-                {function:"radarDoppler",slideDelay:8000},
                 {function:"almanac",slideDelay:8000},
-                {function:"daypartForecast",slideDelay:8000},
-                {function:"mapForecast",slides:2,slideDelay:8000},
                 {function:"localForecast",slides:4,slideDelay:7500},
                 {function:"weekAhead",slideDelay:12000}
             ]
@@ -1474,12 +1462,9 @@ var slideFlavors = {
             precip: false,
             order: [
                 {function:"currentConditions",slideDelay:8000},
-                {function:"nearbyCities",slides:2,slideDelay:6000},
-                {function:"radarDoppler",slideDelay:8000},
                 {function:"airQuality",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
-                {function:"mapForecast",slides:2,slideDelay:7000},
-                {function:"localForecast",slides:3,slideDelay:8000},
+                {function:"localForecast",slides:3,slideDelay:5000},
                 {function:"weekAhead",slideDelay:8000}
             ]
         },
@@ -1490,12 +1475,9 @@ var slideFlavors = {
             order: [
                 {function:"bulletin",slideDelay:8000},
                 {function:"currentConditions",slideDelay:8000},
-                {function:"nearbyCities",slides:2,slideDelay:6000},
-                {function:"radarDoppler",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slideDelay:8000},
-                {function:"localForecast",slides:4,slideDelay:7500},
-                {function:"weekAhead",slideDelay:8000}
+                {function:"weekAhead",slideDelay:10000}
             ]
         },
         {
@@ -1505,11 +1487,8 @@ var slideFlavors = {
             order: [
                 {function:"bulletin",slideDelay:8000},
                 {function:"currentConditions",slideDelay:8000},
-                {function:"mapCurrent",slideDelay:8000},
-                {function:"radarDoppler",slideDelay:8000},
                 {function:"outdoorActivity",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
-                {function:"mapForecast",slideDelay:8000},
                 {function:"localForecast",slides:3,slideDelay:8666},
                 {function:"weekAhead",slideDelay:8000}
             ]
