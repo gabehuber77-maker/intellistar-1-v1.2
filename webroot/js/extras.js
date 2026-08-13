@@ -1554,7 +1554,7 @@ var slideFlavors = {
             precip: false,
             order: [
                 {function:"currentConditions",slideDelay:80000},
-                {function:"nearbyCities",slides:2,s4lideDelay:30000},
+                {function:"nearbyCities",slides:2,slideDelay:30000},
                 {function:"mapCurrent",slideDelay:20000},
                 {function:"daypartForecast",slideDelay:40000},
                 {function:"localForecast",slides:4,slideDelay:50000},
@@ -1573,7 +1573,7 @@ var slideFlavors = {
             order: [
                 {function:"bulletin",slideDelay:40000},
                 {function:"currentConditions",slideDelay:80000},
-                {function:"nearbyCities",slides:2,s4lideDelay:30000},
+                {function:"nearbyCities",slides:2,slideDelay:30000},
                 {function:"mapCurrent",slideDelay:20000},
                 {function:"daypartForecast",slideDelay:40000},
                 {function:"localForecast",slides:4,slideDelay:50000},
@@ -1591,7 +1591,7 @@ var slideFlavors = {
             precip: true,
             order: [
                 {function:"currentConditions",slideDelay:80000},
-                {function:"nearbyCities",slides:2,s4lideDelay:30000},
+                {function:"nearbyCities",slides:2,slideDelay:30000},
                 {function:"mapCurrent",slideDelay:20000},
                 {function:"daypartForecast",slideDelay:40000},
                 {function:"localForecast",slides:4,slideDelay:50000},
@@ -1611,7 +1611,7 @@ var slideFlavors = {
             order: [
                 {function:"bulletin",slideDelay:40000},
                 {function:"currentConditions",slideDelay:80000},
-                {function:"nearbyCities",slides:2,s4lideDelay:30000},
+                {function:"nearbyCities",slides:2,slideDelay:30000},
                 {function:"mapCurrent",slideDelay:20000},
                 {function:"daypartForecast",slideDelay:40000},
                 {function:"localForecast",slides:4,slideDelay:50000},
