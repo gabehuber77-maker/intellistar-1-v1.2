@@ -114,9 +114,26 @@
                 </div>
                 <div class="right-pane">
                     <div class="labels">
-                        WIND<br
+                        HUMIDITY<br>DEW POINT<br>PRESSURE<br>VISIBILITY<br>WIND<br>GUSTS<br>
+                    </div>
+                    <div class="humidity"></div>
+                    <div class="dewpoint"></div>
+                    <div class="pressure">
+                        <div class="data"></div>
+                        <div class="inches">INCHES</div>
+                        <div class="trend"></div>
+                    </div>
+                    <div class="visibility">
+                        <div class="data"></div>
+                        <div class="miles">MILES</div>
                     </div>
                     <div class="wind"></div>
+                    <div class="gusts">
+                        <div class="none" style="display: none;">None</div>
+                        <div class="data"></div>
+                        <div class="miles">MPH</div>
+                    </div>
+                    <div class="feelslike" style="display: none;"></div>
                 </div>
             </div>
             <div class="eight-cities" style="display: none;">
@@ -319,7 +336,7 @@
             </div>
             <div class="radar" style="display:none;">
                 <div class="header" style="display:none;">Futurecast</div>
-                <div class="hourloop">36 Hour Loop</div>
+                <div class="hourloop">3 Hour Loop</div>
                 <div class="key">light<img src="images/radarLegend.png"><span>heavy</span></div>
                 <div class="banner"></div>
                 <div id="locradar" style="display:none;"></div>
