@@ -3,7 +3,16 @@ var map_key = 'YOUR_MAP_KEY';
 var traf_key = 'YOUR_TRAFFIC_KEY';
 
 var appearanceSettings = {
-    marqueeAd: ["network"],
+    marqueeAd: [
+        "GO Faster, Do More, Wait Less! Call now to sign up for Snout Cable High-Speed Internet! Special offer available at 1-888-GET-SNOUTCA",
+        "Watch anywhere you go, Or take with you anywhere with you? Take the Let's Go Luna Channel App Today. Download It From The App Store and Google Play Today.",
+        "If You Have VirTSC, Go To github.com/VirTSC/virtsc Right Now To Get Perris, Flat Rock, And Weatherscan.",
+        "Your Watching The Weather Channel. It's Amazing Out There.",
+        "Intellistar 1 Sim v1.2 Has Blue LDL, 2010 Icons, versions 2009 and 2010, LDL type can now be changed in the settings menu, bulletin narrations, And Outdoor Activity slide. See It For yourself right now!",
+        "Tim Rex In Space: SnackTime Playdate. Available November 20th To Blu-Ray",
+        "Work It Out Wombats: Womstock. Available November 3rd To Blu-Ray",
+        "Visit letsgoluna.com right now for full episodes and fun and games every day! You Can also send into request by visiting letsgoluna.com/request."
+    ],
     localWeatherID: "XXXXX", //Keep it at XXXXX to generate a random local weather ID. Otherwise, put a 5 digit number.
     iconSet: "2007", //Choices are 2007 or 2010. 2010 icons appear in 2010-present versions, 2007 is between 2006-2010.
     ldlType: 'both', //what you want to see on ldl. 'observations' = only observations / 'both' = both / if anything else is put here, the sim will default to only observations
