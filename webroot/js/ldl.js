@@ -65,7 +65,7 @@ var ldlIndex = 0;
 function blackLDLObs(){
     $(".ldl-black .template.obs").fadeIn(0);
     $(".ldl-black .template.ad").fadeOut(0);
-    $(".ldl-black .observations").fadeIn(0);
+    $(".ldl-black .observations").fadeIn(500);
     $(".ldl-black .weathercomlogo").fadeIn(500);
     var observations = [
         localWeatherID = function(){
