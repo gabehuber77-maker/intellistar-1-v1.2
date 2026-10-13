@@ -50,7 +50,7 @@ function blackLDL(type){
 
 function adCrawl(idx){
     $(".ldl-black .observations").fadeOut(0);
-    $(".ldl-black .template.ad").fadeIn(0);
+    $(".ldl-black .template.ad").fadeIn(500);
     $(".ldl-black .weathercomlogo").fadeOut(0);
     $('.ldl-black .crawl').text(appearanceSettings.marqueeAd[idx])
     $('.ldl-black .crawl').marquee({ speed: 30, pauseOnHover: false }).on('finished', () =>{
@@ -66,7 +66,7 @@ function blackLDLObs(){
     $(".ldl-black .template.obs").fadeIn(0);
     $(".ldl-black .template.ad").fadeOut(0);
     $(".ldl-black .observations").fadeIn(0);
-    $(".ldl-black .weathercomlogo").fadeIn(0);
+    $(".ldl-black .weathercomlogo").fadeIn(500);
     var observations = [
         localWeatherID = function(){
             $(".ldl-black .currently").fadeOut(0);
