@@ -53,7 +53,7 @@ function adCrawl(idx){
     $(".ldl-black .template.ad").fadeIn(500);
     $(".ldl-black .weathercomlogo").fadeOut(0);
     $('.ldl-black .crawl').text(appearanceSettings.marqueeAd[idx])
-    $('.ldl-black .crawl').marquee({ speed: 30, pauseOnHover: false }).on('finished', () =>{
+    $('.ldl-black .crawl').marquee({ speed: 185, pauseOnHover: false }).on('finished', () =>{
         $('.ldl-black .crawl').text("");
         $('.ldl-black .crawl').marquee('destroy');
         obsInterval = blackLDLObs();
@@ -72,7 +72,7 @@ function blackLDLObs(){
             $(".ldl-black .currently").fadeOut(0);
             $(".ldl-black .info-header").fadeOut(0);
             $(".ldl-black .info").fadeOut(0);
-            $(".ldl-black .city-name").text("Free Bird: " + locWeatherID);
+            $(".ldl-black .city-name").text("Local weather ID: " + locWeatherID);
         },
         cc = function(){
             $(".ldl-black .currently").fadeIn(0);
@@ -233,7 +233,7 @@ function addTabs(){
 
 function adCrawlBlue(idx){
     $('.ldl-blue .crawl .scroll').text(appearanceSettings.marqueeAd[idx])
-    $('.ldl-blue .crawl .scroll').marquee({ speed: 50, pauseOnHover: false, delayBeforeStart: 500 }).on('finished', () =>{
+    $('.ldl-blue .crawl .scroll').marquee({ speed: 185, pauseOnHover: false, delayBeforeStart: 500 }).on('finished', () =>{
         $('.ldl-blue .crawl .scroll').text("");
         $('.ldl-blue .crawl .scroll').marquee('destroy');
         $(".ldl-blue .crawl .box").css('animation', 'crawlDestroy 0.15s linear forwards');
