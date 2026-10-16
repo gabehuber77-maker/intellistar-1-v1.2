@@ -53,7 +53,7 @@ function adCrawl(idx){
     $(".ldl-black .template.ad").fadeIn(500);
     $(".ldl-black .weathercomlogo").fadeOut(0);
     $('.ldl-black .crawl').text(appearanceSettings.marqueeAd[idx])
-    $('.ldl-black .crawl').marquee({ speed: 185, pauseOnHover: true }).on('finished', () =>{
+    $('.ldl-black .crawl').marquee({ speed: 185, pauseOnHover: false }).on('finished', () =>{
         $('.ldl-black .crawl').text("");
         $('.ldl-black .crawl').marquee('destroy');
         obsInterval = blackLDLObs();
