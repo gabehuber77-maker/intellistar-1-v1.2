@@ -1395,7 +1395,7 @@ var slideFlavors = {
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:2,slideDelay:8000},
-                {function:"weekAhead",slideDelay:12000},
+                {function:"airQuality",slideDelay:12000},
             ]
         },
         {
@@ -1408,7 +1408,7 @@ var slideFlavors = {
                 {function:"localDoppler",slideDelay:12000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:2,slideDelay:8000},
-                {function:"weekAhead",slideDelay:8000},
+                {function:"airQuality",slideDelay:8000},
             ]
         },
         {
@@ -1447,7 +1447,7 @@ var slideFlavors = {
                 {function:"localDoppler",slideDelay:12000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:1,slideDelay:8000},
-                {function:"weekAhead",slideDelay:8000},
+                {function:"airQuality",slideDelay:8000},
             ]
         }
     ],
