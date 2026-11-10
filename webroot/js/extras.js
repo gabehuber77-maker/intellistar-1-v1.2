@@ -1352,8 +1352,7 @@ var slideFlavors = {
             bulletin: false,
             precip: false,
             order: [
-                {function:"currentConditions",slideDelay:7500},
-                {function:"mapCurrent",slideDelay:7500},
+                {function:"nearbyCities",slides:2,slideDelay:7500},
                 {function:"radarDoppler",slideDelay:7500},
                 {function:"almanac",slideDelay:7500},
                 {function:"localForecast",slides:3,slideDelay:7500},
@@ -1365,8 +1364,7 @@ var slideFlavors = {
             bulletin: false,
             precip: false,
             order: [
-                {function:"currentConditions",slideDelay:8000},
-                {function:"mapCurrent",slideDelay:8000},
+                {function:"nearbyCities",slides:2,slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:9333.33},
                 {function:"mapForecast",slides:2,slideDelay:9333.33},
