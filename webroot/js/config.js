@@ -3,7 +3,7 @@ var map_key = 'YOUR_MAP_KEY';
 var traf_key = 'YOUR_TRAFFIC_KEY';
 
 var appearanceSettings = {
-    marqueeAd: ["network"],
+    marqueeAd: ["GO Faster, Do More, Wait Less! Call now to sign up for Charter High-Speed Internet! Special offer available at 1-888-GET-CHARTER"],
     localWeatherID: "XXXXX", //Keep it at XXXXX to generate a random local weather ID. Otherwise, put a 5 digit number.
     iconSet: "2007", //Choices are 2007 or 2010. 2010 icons appear in 2010-present versions, 2007 is between 2006-2010.
     ldlType: 'both', //what you want to see on ldl. 'observations' = only observations / 'both' = both / if anything else is put here, the sim will default to only observations
