@@ -1421,7 +1421,8 @@ var slideFlavors = {
                 {function:"currentConditions",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"localDoppler",slideDelay:12000},
-                {function:"localForecast",slides:3,slideDelay:8000},
+				{function:"mapForecast",slides:1,slideDelay:8000},
+                {function:"localForecast",slides:2,slideDelay:8000},
                 {function:"weekAhead",slideDelay:8000},
             ]
         },
