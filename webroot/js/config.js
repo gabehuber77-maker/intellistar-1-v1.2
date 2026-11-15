@@ -3,9 +3,7 @@ var map_key = 'YOUR_MAP_KEY';
 var traf_key = 'YOUR_TRAFFIC_KEY';
 
 var appearanceSettings = {
-    marqueeAd: ["network"
-               "Starting Watching Work It out Wombats Hanukkah & The Snowy Day & The Fishman's Menorah? It will be start in November 23rd. Only On PBS Kids."
-               "In The Polar Express, a young boy longs to believe in Santa Claus, and on Christmas Eve a mysterious train visits him, promising to take him to the North Pole. The train\'s conductor helps turn his crisis in faith into a journey of self-discovery. Premiering Dec. 23 on VOD."],
+    marqueeAd: ["In The Polar Express, a young boy longs to believe in Santa Claus, and on Christmas Eve a mysterious train visits him, promising to take him to the North Pole. The train\'s conductor helps turn his crisis in faith into a journey of self-discovery. Premiering Dec. 23 on VOD."],
     localWeatherID: "XXXXX", //Keep it at XXXXX to generate a random local weather ID. Otherwise, put a 5 digit number.
     iconSet: "2007", //Choices are 2007 or 2010. 2010 icons appear in 2010-present versions, 2007 is between 2006-2010.
     ldlType: 'both', //what you want to see on ldl. 'observations' = only observations / 'both' = both / if anything else is put here, the sim will default to only observations
