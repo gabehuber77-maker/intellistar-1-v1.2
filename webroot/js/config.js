@@ -3,20 +3,9 @@ var map_key = 'YOUR_MAP_KEY';
 var traf_key = 'YOUR_TRAFFIC_KEY';
 
 var appearanceSettings = {
-    marqueeAd: [
-        "Starting Watching Work It out Wombats Hanukkah & The Snowy Day & The Fishman's Menorah? It will be start in November 23rd. Only On PBS Kids.",
-        "Simply Looking At the WIOW Renders? Go Ahead And join in to look all of the wombats pictures. Visit discord.gg/te78Htas5h right now!",
-        "It's The Holiday Season. And Where we started on Christmas Station. If you already had your christmas music, then your in! But If you listening to regular music, Then the christmas music will be coming up after thanksgiving. Thank You!",
-        "Also check out other sims on archive.org/details/@gabe_huber_2, your place for Local on the 8s simulations!",
-        "GO Faster, Do More, Wait Less! Call now to sign up for Snout Cable High-Speed Internet! Special offer available at 1-888-GET-SNOUT",
-        "GRAND OPENING OF NORTH STAR POINTE! NOV 19&20. DOCKABLE LAKE FRONT FROM $99,900. LAKE ACCESS HOME SITES FROM $34,900. EXCELLENT FINANCING. PAY NO CLOSING COSTS! JUST MINUTES FROM DFW. DON’T MISS OUT! CALL 1-800-710-0977. NORTH STAR POINTE. CALL 1-800-710-0977. 1-800-710-0977"
-        "Put The Weather Crawl to work for your business. Call Leslie Johnson at (605) 965-9354 to see how easy and affordable it is to advertise with The Weather Channel Local Forecast crawl.",
-        "The world will be watching as teams from USA and Europe go head-to-head in Scotland. Every Tuesday, Twelve men will battle for the ultimate prize-European Tour Exemptions. The Big Break IV: USA VS Europe. Premieres Tuesday, September 13th at 9/8 PM CST on PrairieWave Channel 55.",
-        "Beginning November 1, sign up for HD service and receive 2 months FREE! Promotion includes HD programming and equipment. Promotion ends December 31, 2005. Call 1-877-633-4567 to sign up today. Not available in all areas.",
-        "Win the star treatment in the Hollywood Holiday Sweepstakes! Watch Hallmark Channel on PrairieWave Digital Channel #110 Saturday nights through 12/24 at 9/8 CST for your chance to call in & win. Sweepstakes ends 12/24/05. For complete details visit www.hallmarkchannel.com",
-        "In The Polar Express, a young boy longs to believe in Santa Claus, and on Christmas Eve a mysterious train visits him, promising to take him to the North Pole. The train\'s conductor helps turn his crisis in faith into a journey of self-discovery. Premiering Dec. 23 on VOD.",
-        "Sign up for Digital Cable and receive 1 month FREE and 1 FREE Video On Demand movie ($3.99 value). Promotion ends January 31, 2006. Call 1-877-633-4567 to sign up today. Certain restrictions apply. Not available in all areas or in conjunction with any other offer."
-    ],
+    marqueeAd: ["network"
+               "Starting Watching Work It out Wombats Hanukkah & The Snowy Day & The Fishman's Menorah? It will be start in November 23rd. Only On PBS Kids."
+               "In The Polar Express, a young boy longs to believe in Santa Claus, and on Christmas Eve a mysterious train visits him, promising to take him to the North Pole. The train\'s conductor helps turn his crisis in faith into a journey of self-discovery. Premiering Dec. 23 on VOD."],
     localWeatherID: "XXXXX", //Keep it at XXXXX to generate a random local weather ID. Otherwise, put a 5 digit number.
     iconSet: "2007", //Choices are 2007 or 2010. 2010 icons appear in 2010-present versions, 2007 is between 2006-2010.
     ldlType: 'both', //what you want to see on ldl. 'observations' = only observations / 'both' = both / if anything else is put here, the sim will default to only observations
