@@ -1377,8 +1377,8 @@ var slideFlavors = {
             bulletin: true,
             precip: false,
             order: [
-                {function:"currentConditions",slideDelay:7500},
                 {function:"bulletin",slideDelay:7500},
+                {function:"currentConditions",slideDelay:7500},
                 {function:"mapCurrent",slideDelay:7500},
                 {function:"radarDoppler",slideDelay:7500},
                 {function:"localForecast",slides:3,slideDelay:7500},
@@ -1390,8 +1390,8 @@ var slideFlavors = {
             bulletin: true,
             precip: false,
             order: [
-                {function:"currentConditions",slideDelay:8000},
                 {function:"bulletin",slideDelay:8000},
+                {function:"currentConditions",slideDelay:8000},
                 {function:"mapCurrent",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
@@ -1429,8 +1429,8 @@ var slideFlavors = {
             bulletin: true,
             precip: true,
             order: [
-                {function:"currentConditions",slideDelay:7000},
                 {function:"bulletin",slideDelay:7000},
+                {function:"currentConditions",slideDelay:7000},
                 {function:"radarDoppler",slideDelay:7000},
                 {function:"localDoppler",slideDelay:11000},
                 {function:"localForecast",slides:3,slideDelay:7000},
@@ -1442,8 +1442,8 @@ var slideFlavors = {
             bulletin: true,
             precip: true,
             order: [
-                {function:"currentConditions",slideDelay:8000},
                 {function:"bulletin",slideDelay:8000},
+                {function:"currentConditions",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"localDoppler",slideDelay:12000},
                 {function:"daypartForecast",slideDelay:8000},
@@ -1488,8 +1488,8 @@ var slideFlavors = {
             bulletin: true,
             precip: false,
             order: [
-                {function:"currentConditions",slideDelay:8000},
                 {function:"bulletin",slideDelay:8000},
+                {function:"currentConditions",slideDelay:8000},
                 {function:"nearbyCities",slides:2,slideDelay:6000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
@@ -1503,8 +1503,8 @@ var slideFlavors = {
             bulletin: true,
             precip: false,
             order: [
-                {function:"currentConditions",slideDelay:8000},
                 {function:"bulletin",slideDelay:8000},
+                {function:"currentConditions",slideDelay:8000},
                 {function:"mapCurrent",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"outdoorActivity",slideDelay:8000},
@@ -1524,8 +1524,9 @@ var slideFlavors = {
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"localDoppler",slideDelay:12000},
                 {function:"almanac",slideDelay:8000},
-                {function:"mapForecast",slideDelay:8000},
-                {function:"localForecast",slides:3,slideDelay:8666},
+                {function:"airQuality",slideDelay:8000},
+                {function:"daypartForecast",slideDelay:8000},
+                {function:"mapForecast",slides:2,slideDelay:8000},
                 {function:"weekAhead",slideDelay:8000}
 
             ]
@@ -1535,8 +1536,8 @@ var slideFlavors = {
             bulletin: true,
             precip: true,
             order: [
-                {function:"currentConditions",slideDelay:8000},
                 {function:"bulletin",slideDelay:8000},
+                {function:"currentConditions",slideDelay:8000},
                 {function:"mapCurrent",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"localDoppler",slideDelay:12000},
@@ -1571,8 +1572,8 @@ var slideFlavors = {
             bulletin: true,
             precip: false,
             order: [
-                {function:"currentConditions",slideDelay:8000},
                 {function:"bulletin",slideDelay:8000},
+                {function:"currentConditions",slideDelay:8000},
                 {function:"nearbyCities",slides:2,slideDelay:6000},
                 {function:"mapCurrent",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
@@ -1606,8 +1607,8 @@ var slideFlavors = {
             bulletin: true,
             precip: true,
             order: [
-                {function:"currentConditions",slideDelay:8000},
                 {function:"bulletin",slideDelay:8000},
+                {function:"currentConditions",slideDelay:8000},
                 {function:"nearbyCities",slides:2,slideDelay:6000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"localDoppler",slideDelay:12000},
