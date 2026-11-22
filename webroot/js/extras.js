@@ -1368,7 +1368,8 @@ var slideFlavors = {
                 {function:"currentConditions",slideDelay:8000},
                 {function:"mapCurrent",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
-                {function:"localForecast",slides:3,slideDelay:9333.33},
+                {function:"daypartForecast",slideDelay:9333.33},
+                {function:"mapForecast",slides:2,slideDelay:9333.33},
                 {function:"weekAhead",slideDelay:8000},
             ]
         },
@@ -1381,7 +1382,8 @@ var slideFlavors = {
                 {function:"currentConditions",slideDelay:7500},
                 {function:"mapCurrent",slideDelay:7500},
                 {function:"radarDoppler",slideDelay:7500},
-                {function:"localForecast",slides:3,slideDelay:7500},
+				{function:"mapForecast",slides:1,slideDelay:7500},
+                {function:"localForecast",slides:2,slideDelay:7500},
                 {function:"weekAhead",slideDelay:7500},
             ]
         },
@@ -1420,7 +1422,8 @@ var slideFlavors = {
                 {function:"currentConditions",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"localDoppler",slideDelay:12000},
-                {function:"localForecast",slides:3,slideDelay:8000},
+                {function:"mapForecast",slides:1,slideDelay:8000},
+                {function:"localForecast",slides:2,slideDelay:8000},
                 {function:"weekAhead",slideDelay:8000},
             ]
         },
@@ -1433,7 +1436,8 @@ var slideFlavors = {
                 {function:"currentConditions",slideDelay:7000},
                 {function:"radarDoppler",slideDelay:7000},
                 {function:"localDoppler",slideDelay:11000},
-                {function:"localForecast",slides:3,slideDelay:7000},
+                {function:"mapForecast",slides:1,slideDelay:7000},
+                {function:"localForecast",slides:2,slideDelay:7000},
                 {function:"weekAhead",slideDelay:7000},
             ]
         },
@@ -1507,11 +1511,11 @@ var slideFlavors = {
                 {function:"currentConditions",slideDelay:8000},
                 {function:"mapCurrent",slideDelay:8000},
                 {function:"radarDoppler",slideDelay:8000},
-                {function:"outdoorActivity",slideDelay:8000},
+                {function:"almanac",slideDelay:8000},
+                {function:"airQuality",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
-                {function:"mapForecast",slideDelay:8000},
-                {function:"localForecast",slides:3,slideDelay:8666},
-                {function:"weekAhead",slideDelay:8000}
+                {function:"mapForecast",slides:2,slideDelay:8000},
+                {function:"weekAhead",slideDelay:10000}
             ]
         },
         {
@@ -1527,7 +1531,7 @@ var slideFlavors = {
                 {function:"airQuality",slideDelay:8000},
                 {function:"daypartForecast",slideDelay:8000},
                 {function:"mapForecast",slides:2,slideDelay:8000},
-                {function:"weekAhead",slideDelay:8000}
+                {function:"weekAhead",slideDelay:10000}
 
             ]
         },
@@ -1542,7 +1546,8 @@ var slideFlavors = {
                 {function:"radarDoppler",slideDelay:8000},
                 {function:"localDoppler",slideDelay:12000},
                 {function:"daypartForecast",slideDelay:8000},
-                {function:"localForecast",slides:4,slideDelay:7500},
+                {function:"mapForecast",slides:2,slideDelay:7500},
+                {function:"localForecast",slides:2,slideDelay:7500},
                 {function:"weekAhead",slideDelay:8000}
             ]
         }
